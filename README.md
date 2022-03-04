@@ -13,7 +13,7 @@
     + `npm uninstall --save typescript @types/jest @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript`
 2) 모든 `.ts` 확장자 파일을 `.js`로 바꾸기
 3) 모든 파일에 `script태그` 안에 `lang="ts"` 없애기
-4) `tsconfig~~` 파일 지우기
+4) `tsconfig.json` 파일 지우기
 5) `shims-vue.d.ts` 파일 지우기
 6) `router > index.js` 파일에 `: Array<RouteRecordRaw>`와 `import { RouteRecordRaw } from 'vue-router';` 지우기
 7) 밖에 `.eslintrc.js` 파일 안에서 `'@vue/typescript/recommended'` 와 `'@typescript-eslint/no-explicit-any': 'off'` 삭제하기
